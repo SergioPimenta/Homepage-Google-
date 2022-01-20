@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+*input, button {
+    font-family: Arial, sans-serif;
+    
+}
+.menu__avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.menu{
+    height: 48px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: Arial, sans-serif;
+    padding: 15px 5px;
+}
+.menu__section{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px 0 32px;
+}
+.menu__section .menu__icon{
+    padding: 8px;
+    
+    
+}
+
+.menu__link{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 100%;
+    padding: 12px 5px;
+    color: #363535;
+    text-decoration: none;
+}
+.menu__avatar{
+    padding: 4px;
+    
+}
+.menu__link:hover{
+    text-decoration-line: underline;
+
+}
+.circle__shadow{
+    
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle__shadow:hover{
+    background-color: rgba(170, 169, 169, 0.2)
+}
+
+
+/* MAIN */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 75px;
+}
+.content__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    margin-top: 20px;
+    padding: 13px 10px 13px 10px;
+    border-radius: 50px;
+}
+.content__container:hover{
+    box-shadow: 0 3px 10px 0 gainsboro;
+}    
+.content__search{
+    width: 500px;
+    height: 38px;
+    border: none;
+    outline: 0;
+    font-size: 18px;
+}
+.content__icon{
+    width: 19px;
+    color: gainsboro;
+}
+
+
+.content__logo{
+    margin-top: 26px;
+    max-width: 300px;
+}
+
+    .content__buttons{
+        margin-top: 25px;
+        
+    }
+    button{
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        height: 36px;
+        padding: 0 20px;
+        margin: 0 5px;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover{
+        box-shadow: 0 0 5px 1px gainsboro;
+    }
+
+    .content__section{
+        font-size: 13px;
+        margin-top: 35px;
+        margin-left: 10px;
+        padding: 0 15px 0 0;
+    }
+    .content__link{
+        text-decoration: none;
+    }
+    .content__link:hover{
+        text-decoration: underline;
+    }
+    .creditos{
+        font-size: 12px;
+        margin-top: 25px;
+        font: arial;
+    }
+    .content__micro{
+        cursor: pointer;
+    }
+
+    /* Footer */
+
+    .footer{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        background-color: #f2f2f2;
+        margin-top: 133px;
+        
+    }
+    .footer__section{
+        font-size: 15px;
+        color: rgba(129, 126, 126, 0.95);
+        padding: 10px 16px;
+        
+    }
+
+    .footer__links{
+        border-top: 1px solid #d1cfcf;
+        padding: 10px 23px ;
+        font-size: 13px;
+        
+        }
+    
+    .footer__content{
+        display: flex;
+        justify-content: space-between;
+          
+    }
+
+    .footer__content .links__right{
+        display: flex;
+    }
+    .footer__content .links__left{
+        display: flex;
+    }
+    .links__right li a{
+        margin-left: 10px;
+         color: rgba(129, 126, 126, 0.95);
+        
+    }
+    .links__left li a{
+        margin-left: 10px;
+        color: rgba(129, 126, 126, 0.95);
+    }
+    .links__left li a:hover{
+        text-decoration: underline;
+    }
+    .links__right li a:hover{
+        text-decoration: underline;
+    }
+
+
+    
+
+     /* Responsividade */
+ @media only screen and (max-width: 650px){    
+.content__container{
+    width: 90%;
+}
+    .footer{
+        height: 150px;
+        margin-top: 120px;
+    
+    }
+    .footer__section{
+        height: 50px;
+    }
+    .footer__content{
+        height: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .footer__content .links__right{
+        height: 50px;
+    }
+}
+    
+   
+
+    
+
