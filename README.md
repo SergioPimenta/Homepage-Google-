@@ -2,5 +2,5 @@
 Homepage Google UI clone for studying purposes
 
 
-Resources
+Resources:
 HTML, CSS, JS
